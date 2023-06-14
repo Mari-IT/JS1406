@@ -1,0 +1,39 @@
+@import "modules/vendor";
+
+:root {
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#map {
+  width: 70%;
+}
+
+.info-form {
+  width: 30%;
+  padding: 50px;
+  font-size: 15pt;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button, label{
+  margin-top: 5px;
+}
+
+#coordinates{
+  font-size: 15pt;
+}

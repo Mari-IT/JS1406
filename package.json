@@ -1,0 +1,26 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "npx laravel-mix watch",
+    "build": "npx laravel-mix build",
+    "prod": "npx laravel-mix --production",
+    "serve": "npx http-server public --port 80"
+  },
+  "author": "Jakub Bilski <jakub.bilski@apsl.edu.pl>",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.3",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "leaflet": "^1.9.3",
+    "leaflet-gesture-handling": "^1.2.2",
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1"
+  }
+}
